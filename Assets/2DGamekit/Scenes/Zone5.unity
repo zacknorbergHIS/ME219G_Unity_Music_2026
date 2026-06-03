@@ -52157,7 +52157,7 @@ PrefabInstance:
     - target: {fileID: 8283495161900147264, guid: 5e02d266c3b0145ccad01d32166fc7b1,
         type: 3}
       propertyPath: audioSettings.Array.size
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8283495161900147264, guid: 5e02d266c3b0145ccad01d32166fc7b1,
         type: 3}
@@ -52172,17 +52172,17 @@ PrefabInstance:
     - target: {fileID: 8283495161900147264, guid: 5e02d266c3b0145ccad01d32166fc7b1,
         type: 3}
       propertyPath: audioSettings.Array.data[2].tag
-      value: Music
+      value: MusicOutside
       objectReference: {fileID: 0}
     - target: {fileID: 8283495161900147264, guid: 5e02d266c3b0145ccad01d32166fc7b1,
         type: 3}
       propertyPath: audioSettings.Array.data[3].tag
-      value: Music
+      value: MusicBoss
       objectReference: {fileID: 0}
     - target: {fileID: 8283495161900147264, guid: 5e02d266c3b0145ccad01d32166fc7b1,
         type: 3}
       propertyPath: audioSettings.Array.data[4].tag
-      value: Ambiance
+      value: MusicBoss
       objectReference: {fileID: 0}
     - target: {fileID: 8283495161900147264, guid: 5e02d266c3b0145ccad01d32166fc7b1,
         type: 3}
@@ -52202,7 +52202,7 @@ PrefabInstance:
     - target: {fileID: 8283495161900147264, guid: 5e02d266c3b0145ccad01d32166fc7b1,
         type: 3}
       propertyPath: audioSettings.Array.data[3].action
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8283495161900147264, guid: 5e02d266c3b0145ccad01d32166fc7b1,
         type: 3}
@@ -52227,7 +52227,7 @@ PrefabInstance:
     - target: {fileID: 8283495161900147264, guid: 5e02d266c3b0145ccad01d32166fc7b1,
         type: 3}
       propertyPath: audioSettings.Array.data[4].parameter
-      value: WindStrength
+      value: Stage
       objectReference: {fileID: 0}
     - target: {fileID: 8283495161900147264, guid: 5e02d266c3b0145ccad01d32166fc7b1,
         type: 3}
@@ -52830,6 +52830,109 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   inventoryChecks: []
+--- !u!1001 &911348897
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3371524719925752809, guid: ac1c8692c9aeaca48ab541c2147b8923,
+        type: 3}
+      propertyPath: m_Name
+      value: AudioTrigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 3371524719925752810, guid: ac1c8692c9aeaca48ab541c2147b8923,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 26.84
+      objectReference: {fileID: 0}
+    - target: {fileID: 3371524719925752810, guid: ac1c8692c9aeaca48ab541c2147b8923,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 3371524719925752810, guid: ac1c8692c9aeaca48ab541c2147b8923,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3371524719925752810, guid: ac1c8692c9aeaca48ab541c2147b8923,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3371524719925752810, guid: ac1c8692c9aeaca48ab541c2147b8923,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3371524719925752810, guid: ac1c8692c9aeaca48ab541c2147b8923,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3371524719925752810, guid: ac1c8692c9aeaca48ab541c2147b8923,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3371524719925752810, guid: ac1c8692c9aeaca48ab541c2147b8923,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3371524719925752810, guid: ac1c8692c9aeaca48ab541c2147b8923,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3371524719925752810, guid: ac1c8692c9aeaca48ab541c2147b8923,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3371524719925752811, guid: ac1c8692c9aeaca48ab541c2147b8923,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 11.86457
+      objectReference: {fileID: 0}
+    - target: {fileID: 3371524719925752811, guid: ac1c8692c9aeaca48ab541c2147b8923,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 11.36158
+      objectReference: {fileID: 0}
+    - target: {fileID: 3371524719925752820, guid: ac1c8692c9aeaca48ab541c2147b8923,
+        type: 3}
+      propertyPath: audioTriggerSettings.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3371524719925752820, guid: ac1c8692c9aeaca48ab541c2147b8923,
+        type: 3}
+      propertyPath: audioTriggerSettings.Array.data[0].tag
+      value: MusicBoss
+      objectReference: {fileID: 0}
+    - target: {fileID: 3371524719925752820, guid: ac1c8692c9aeaca48ab541c2147b8923,
+        type: 3}
+      propertyPath: audioTriggerSettings.Array.data[0].action
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3371524719925752820, guid: ac1c8692c9aeaca48ab541c2147b8923,
+        type: 3}
+      propertyPath: audioTriggerSettings.Array.data[0].parameter
+      value: BossEntered
+      objectReference: {fileID: 0}
+    - target: {fileID: 3371524719925752820, guid: ac1c8692c9aeaca48ab541c2147b8923,
+        type: 3}
+      propertyPath: audioTriggerSettings.Array.data[0].targetValue
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ac1c8692c9aeaca48ab541c2147b8923, type: 3}
 --- !u!1 &912411525
 GameObject:
   m_ObjectHideFlags: 0
@@ -69538,12 +69641,12 @@ PrefabInstance:
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: stage1Value
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: stage2Value
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
@@ -69553,12 +69656,12 @@ PrefabInstance:
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: bossDeathValue
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: stageParameter
-      value: 
+      value: BossStage
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796895, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
@@ -69654,6 +69757,7 @@ SceneRoots:
   - {fileID: 1415865580}
   - {fileID: 1409900101}
   - {fileID: 390933069}
+  - {fileID: 911348897}
   - {fileID: 2140609693}
   - {fileID: 949645367}
   - {fileID: 807849617}
